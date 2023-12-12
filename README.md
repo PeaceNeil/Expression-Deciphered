@@ -1,5 +1,11 @@
 # Expression-Deciphered
-Course Final Project
+Course Final Project.
+
+<div style="display: flex;">
+    <img src="img/happy.png" alt="Happy" width="200" height="200" style="margin-right: 10px;">
+    <img src="img/angry.png" alt="Angry" width="200" height="200">
+    <img src="img/fear.png" alt="Fear" width="200" height="200">
+</div>
 
 ## Training Steps
 
