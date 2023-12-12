@@ -24,7 +24,6 @@ def load_imgs(num, img_dir):
         file_path = os.path.join(img_dir, file_name)
         file_names.append(file_name)
 
-        # 打开图片并显示
         img = Image.open(file_path)
         img_numpy = np.asarray(img)
         rgb_np = np.expand_dims(img_numpy, axis=-1)
