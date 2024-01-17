@@ -7,6 +7,9 @@ Course Final Project.
     <img src="img/fear.png" alt="Fear" width="200" height="200">
 </div>
 
+## Data Preparation
+We utilize the [FER2013](https://paperswithcode.com/dataset/fer2013) dataset as an example. The dataset has been uploaded to this repository and divided into train and test directories.
+
 ## Training Steps
 
 
@@ -54,7 +57,7 @@ Remember to ensure that the training and test data directories are correctly spe
 
 ## Explain the Model
 
-1. **Train Your Own Model or Use the Provided [Model](https://drive.google.com/file/d/1Wqx9NfS51fGHNFW1JDjFCZ5ZOjGZ1Rev/view?usp=sharing)**
+1. **Train Your Own Model or Use the Provided [Model](https://drive.google.com/file/d/1Wqx9NfS51fGHNFW1JDjFCZ5ZOjGZ1Rev/view?usp=sharing) in the models directory**
 2. **Generte Heat Maps**
     - Place the trained model in the `models` folder.
     - Both `attentionMap_FER.py` and `gradcam_FER.py` can be executed directly; please modify the corresponding paths.
